@@ -1,312 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="img/flowers.png" type="image/x-icon">
-    <title>flowers</title>
+    <title>Bloom Viral - Toko Bunga Kekinian</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="container">
-  <!-- Pembuat code: https://codepen.io/mdusmanansari/pen/BamepLe -->
-    <div class="night"></div>
-    <div class="flowers">
-      <div class="flower flower--1">
-        <div class="flower_leafs flower_leafs--1">
-          <div class="flower_leaf flower_leaf--1"></div>
-          <div class="flower_leaf flower_leaf--2"></div>
-          <div class="flower_leaf flower_leaf--3"></div>
-          <div class="flower_leaf flower_leaf--4"></div>
-          <div class="flower__white-circle"></div>
-  
-          <div class="flower_light flower_light--1"></div>
-          <div class="flower_light flower_light--2"></div>
-          <div class="flower_light flower_light--3"></div>
-          <div class="flower_light flower_light--4"></div>
-          <div class="flower_light flower_light--5"></div>
-          <div class="flower_light flower_light--6"></div>
-          <div class="flower_light flower_light--7"></div>
-          <div class="flower_light flower_light--8"></div>
-  
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">Bloom<span>Viral</span></div>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#kontak">Hubungi Kami</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Kirim Kebahagiaan Lewat Bunga yang Lagi Viral!</h1>
+            <p>Temukan koleksi buket bunga rajut, kawat bulu, dan balon estetik terlengkap untuk momen spesialmu.</p>
+            <a href="#produk" class="btn">Lihat Koleksi</a>
         </div>
-        <div class="flower__line">
-          <div class="flower_lineleaf flowerline_leaf--1"></div>
-          <div class="flower_lineleaf flowerline_leaf--2"></div>
-          <div class="flower_lineleaf flowerline_leaf--3"></div>
-          <div class="flower_lineleaf flowerline_leaf--4"></div>
-          <div class="flower_lineleaf flowerline_leaf--5"></div>
-          <div class="flower_lineleaf flowerline_leaf--6"></div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="produk" class="products">
+        <h2>Koleksi Terpopuler</h2>
+        <div class="product-grid">
+            
+            <!-- Produk 1 -->
+            <div class="product-card">
+                <div class="badge">Hot</div>
+                <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=500" alt="Bunga Kawat Bulu">
+                <h3>Pipe Cleaner Bouquet</h3>
+                <p class="price">Rp 85.000</p>
+                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20mau%20pesan%20Pipe%20Cleaner%20Bouquet" class="btn-buy" target="_blank">Pesan via WA</a>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="product-card">
+                <div class="badge">Viral</div>
+                <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=500" alt="Bunga Rajut">
+                <h3>Crochet Flower Bouquet</h3>
+                <p class="price">Rp 120.000</p>
+                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20mau%20pesan%20Crochet%20Flower" class="btn-buy" target="_blank">Pesan via WA</a>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="product-card">
+                <div class="badge">Terlaris</div>
+                <img src="https://images.unsplash.com/photo-1533616688419-b7a585564566?w=500" alt="Buku Balon">
+                <h3>Balloon Flower Glow</h3>
+                <p class="price">Rp 150.000</p>
+                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20mau%20pesan%20Balloon%20Flower" class="btn-buy" target="_blank">Pesan via WA</a>
+            </div>
+
         </div>
-      </div>
-  
-      <div class="flower flower--2">
-        <div class="flower_leafs flower_leafs--2">
-          <div class="flower_leaf flower_leaf--1"></div>
-          <div class="flower_leaf flower_leaf--2"></div>
-          <div class="flower_leaf flower_leaf--3"></div>
-          <div class="flower_leaf flower_leaf--4"></div>
-          <div class="flower__white-circle"></div>
-  
-          <div class="flower_light flower_light--1"></div>
-          <div class="flower_light flower_light--2"></div>
-          <div class="flower_light flower_light--3"></div>
-          <div class="flower_light flower_light--4"></div>
-          <div class="flower_light flower_light--5"></div>
-          <div class="flower_light flower_light--6"></div>
-          <div class="flower_light flower_light--7"></div>
-          <div class="flower_light flower_light--8"></div>
-  
-        </div>
-        <div class="flower__line">
-          <div class="flower_lineleaf flowerline_leaf--1"></div>
-          <div class="flower_lineleaf flowerline_leaf--2"></div>
-          <div class="flower_lineleaf flowerline_leaf--3"></div>
-          <div class="flower_lineleaf flowerline_leaf--4"></div>
-        </div>
-      </div>
-  
-      <div class="flower flower--3">
-        <div class="flower_leafs flower_leafs--3">
-          <div class="flower_leaf flower_leaf--1"></div>
-          <div class="flower_leaf flower_leaf--2"></div>
-          <div class="flower_leaf flower_leaf--3"></div>
-          <div class="flower_leaf flower_leaf--4"></div>
-          <div class="flower__white-circle"></div>
-  
-          <div class="flower_light flower_light--1"></div>
-          <div class="flower_light flower_light--2"></div>
-          <div class="flower_light flower_light--3"></div>
-          <div class="flower_light flower_light--4"></div>
-          <div class="flower_light flower_light--5"></div>
-          <div class="flower_light flower_light--6"></div>
-          <div class="flower_light flower_light--7"></div>
-          <div class="flower_light flower_light--8"></div>
-  
-        </div>
-        <div class="flower__line">
-          <div class="flower_lineleaf flowerline_leaf--1"></div>
-          <div class="flower_lineleaf flowerline_leaf--2"></div>
-          <div class="flower_lineleaf flowerline_leaf--3"></div>
-          <div class="flower_lineleaf flowerline_leaf--4"></div>
-        </div>
-      </div>
-  
-      <div class="grow-ans" style="--d:1.2s">
-        <div class="flower__g-long">
-          <div class="flower_g-long_top"></div>
-          <div class="flower_g-long_bottom"></div>
-        </div>
-      </div>
-  
-      <div class="growing-grass">
-        <div class="flower_grass flower_grass--1">
-          <div class="flower__grass--top"></div>
-          <div class="flower__grass--bottom"></div>
-          <div class="flower_grassleaf flowergrass_leaf--1"></div>
-          <div class="flower_grassleaf flowergrass_leaf--2"></div>
-          <div class="flower_grassleaf flowergrass_leaf--3"></div>
-          <div class="flower_grassleaf flowergrass_leaf--4"></div>
-          <div class="flower_grassleaf flowergrass_leaf--5"></div>
-          <div class="flower_grassleaf flowergrass_leaf--6"></div>
-          <div class="flower_grassleaf flowergrass_leaf--7"></div>
-          <div class="flower_grassleaf flowergrass_leaf--8"></div>
-          <div class="flower_grass_overlay"></div>
-        </div>
-      </div>
-  
-      <div class="growing-grass">
-        <div class="flower_grass flower_grass--2">
-          <div class="flower__grass--top"></div>
-          <div class="flower__grass--bottom"></div>
-          <div class="flower_grassleaf flowergrass_leaf--1"></div>
-          <div class="flower_grassleaf flowergrass_leaf--2"></div>
-          <div class="flower_grassleaf flowergrass_leaf--3"></div>
-          <div class="flower_grassleaf flowergrass_leaf--4"></div>
-          <div class="flower_grassleaf flowergrass_leaf--5"></div>
-          <div class="flower_grassleaf flowergrass_leaf--6"></div>
-          <div class="flower_grassleaf flowergrass_leaf--7"></div>
-          <div class="flower_grassleaf flowergrass_leaf--8"></div>
-          <div class="flower_grass_overlay"></div>
-        </div>
-      </div>
-  
-      <div class="grow-ans" style="--d:2.4s">
-        <div class="flower_g-right flower_g-right--1">
-          <div class="leaf"></div>
-        </div>
-      </div>
-  
-      <div class="grow-ans" style="--d:2.8s">
-        <div class="flower_g-right flower_g-right--2">
-          <div class="leaf"></div>
-        </div>
-      </div>
-  
-      <div class="grow-ans" style="--d:2.8s">
-        <div class="flower__g-front">
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--1">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--2">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--3">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--4">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--5">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--6">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--7">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-frontleaf-wrapper flowerg-front_leaf-wrapper--8">
-            <div class="flower_g-front_leaf"></div>
-          </div>
-          <div class="flower_g-front_line"></div>
-        </div>
-      </div>
-  
-      <div class="grow-ans" style="--d:3.2s">
-        <div class="flower__g-fr">
-          <div class="leaf"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--1"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--2"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--3"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--4"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--5"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--6"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--7"></div>
-          <div class="flower_g-frleaf flowerg-fr_leaf--8"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--0">
-        <div class="grow-ans" style="--d:3s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:2.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.4s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--1">
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.8s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:4s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--2">
-        <div class="grow-ans" style="--d:4s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.4s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--3">
-        <div class="grow-ans" style="--d:4s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:3s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--4">
-        <div class="grow-ans" style="--d:4s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:3s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--5">
-        <div class="grow-ans" style="--d:4s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:3s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--6">
-        <div class="grow-ans" style="--d:4.2s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.4s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.6s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:4.8s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-  
-      <div class="long-g long-g--7">
-        <div class="grow-ans" style="--d:3s">
-          <div class="leaf leaf--0"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.2s">
-          <div class="leaf leaf--1"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.5s">
-          <div class="leaf leaf--2"></div>
-        </div>
-        <div class="grow-ans" style="--d:3.6s">
-          <div class="leaf leaf--3"></div>
-        </div>
-      </div>
-    </div>
-    <script src="main.js"></script>
-  </body>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <p>&copy; 2026 BloomViral. Dibuat dengan &hearts; untuk Fleurist Indonesia.</p>
+    </footer>
+
+</body>
 </html>
